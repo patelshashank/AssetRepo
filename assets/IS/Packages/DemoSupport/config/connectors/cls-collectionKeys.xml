@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<services>
+    <cloudstreamsCollectionKeys serviceName="WmCloudStreams.RestVS">
+        <servicesKeys>
+            <keyDetails collectionKey="DemoSupport.salesforce:getContacts" connectorServiceName="DemoSupport.salesforce:getContacts"/>
+        </servicesKeys>
+    </cloudstreamsCollectionKeys>
+    <cloudstreamsCollectionKeys serviceName="WmCloudStreams.SoapVS">
+        <servicesKeys>
+            <keyDetails collectionKey="DemoSupport.salesforce:create" connectorServiceName="DemoSupport.salesforce:create"/>
+            <keyDetails collectionKey="DemoSupport.salesforce:createMultiple" connectorServiceName="DemoSupport.salesforce:createMultiple"/>
+            <keyDetails collectionKey="DemoSupport.salesforce:getOpportunity" connectorServiceName="DemoSupport.salesforce:getOpportunity"/>
+            <keyDetails collectionKey="DemoSupport.salesforce:searchCase" connectorServiceName="DemoSupport.salesforce:searchCase"/>
+            <keyDetails collectionKey="DemoSupport.salesforce:searchContacts" connectorServiceName="DemoSupport.salesforce:searchContacts"/>
+            <keyDetails collectionKey="DemoSupport.salesforce:test" connectorServiceName="DemoSupport.salesforce:test"/>
+        </servicesKeys>
+    </cloudstreamsCollectionKeys>
+</services>

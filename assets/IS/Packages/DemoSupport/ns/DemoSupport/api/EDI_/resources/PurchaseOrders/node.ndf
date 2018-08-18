@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">restResource</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">DemoSupport.api.EDI_.resources:PurchaseOrders</value>
+  <value name="node_pkg">DemoSupport</value>
+  <value name="is_public">false</value>
+  <record name="restResource" javaclass="com.wm.util.Values">
+    <value name="resourceName">PurchaseOrders</value>
+    <value name="nsName">DemoSupport.api.EDI_.resources:PurchaseOrders</value>
+    <array name="operations" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="urlTemplate">PurchaseOrders/send</value>
+        <value name="serviceName">DemoSupport.api.EDI_.services:PurchaseOrderssend_PUT_1</value>
+        <array name="httpMethods" type="value" depth="1">
+          <value>PUT</value>
+        </array>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="urlTemplate">PurchaseOrders/send</value>
+        <value name="serviceName">DemoSupport.api.EDI_.services:PurchaseOrderssend_POST_1</value>
+        <array name="httpMethods" type="value" depth="1">
+          <value>POST</value>
+        </array>
+      </record>
+    </array>
+  </record>
+  <value name="originUri">file://C:\Users\chja\Desktop\EDI.json</value>
+  <Boolean name="modifiable">false</Boolean>
+  <value name="LOCK_REQUIRED">false</value>
+</Values>
