@@ -1,0 +1,38 @@
+Extol Interactive Test >>>> >>>> !!!!   Message class format fields           QSXNAP7    QPADEV000W  7/24/18 16:02:55   Page     1
+                                                                                                                          MMFPF3R
+
+ Message ID . . . . . . :   INVRPT     Message class  :   JABAS2IVD3  Jabil AS2 Daily  w/tp lookup
+ Message class status . :   d          Direction  . . :   R  Receive
+ Standard class . . . . :   U          Industry group :   U           Version-release :   D  97A
+ Application file set . :   EIAS2GENER
+
+
+ File name  Format     K Field      Seq Field text                Typ Len   Start Dgt Dec S/D Misc  Sub Clr Trn Edit Qual Code table
+ Frml inst  Formula      Parm
+
+%loop EICTRLAL1%
+ EICTRLAL1  %value Formula%      %value FieldParm%       %value Seq% %value FieldText% %value Typ% %value Len% %value Start% %value Dgt% %value Dec% %value Dec% %value S/D% %value Misc% %value Clr% %value Trn% %value Edit% %value Qual% %value CodeTable%
+%endloop%
+%loop EIINVAS2L1%
+ EIINVAS2L1  %value Formula%      %value FieldParm%       %value Seq% %value FieldText% %value Typ% %value Len% %value Start% %value Dgt% %value Dec% %value Dec% %value S/D% %value Misc% %value Clr% %value Trn% %value Edit% %value Qual% %value CodeTable%
+%endloop%
+%loop UUJIAS2L0%
+ UUJIAS2L0  %value Formula%      %value FieldParm%       %value Seq% %value FieldText% %value Typ% %value Len% %value Start% %value Dgt% %value Dec% %value Dec% %value S/D% %value Misc% %value Clr% %value Trn% %value Edit% %value Qual% %value CodeTable%
+%endloop%
+%loop UWAACPL0%
+ UWAACPL0  %value Formula%      %value FieldParm%       %value Seq% %value FieldText% %value Typ% %value Len% %value Start% %value Dgt% %value Dec% %value Dec% %value S/D% %value Misc% %value Clr% %value Trn% %value Edit% %value Qual% %value CodeTable%
+%endloop%
+%loop UWAGCPL0%
+ UWAGCPL0  %value Formula%      %value FieldParm%       %value Seq% %value FieldText% %value Typ% %value Len% %value Start% %value Dgt% %value Dec% %value Dec% %value S/D% %value Misc% %value Clr% %value Trn% %value Edit% %value Qual% %value CodeTable%
+%endloop%
+%loop UWALCPL0%
+ UWALCPL0  %value Formula%      %value FieldParm%       %value Seq% %value FieldText% %value Typ% %value Len% %value Start% %value Dgt% %value Dec% %value Dec% %value S/D% %value Misc% %value Clr% %value Trn% %value Edit% %value Qual% %value CodeTable%
+%endloop%
+%loop UWIRAS2L0%
+ UWIRAS2L0  %value Formula%      %value FieldParm%       %value Seq% %value FieldText% %value Typ% %value Len% %value Start% %value Dgt% %value Dec% %value Dec% %value S/D% %value Misc% %value Clr% %value Trn% %value Edit% %value Qual% %value CodeTable%
+%endloop%
+%loop UWROAS2SL1%
+ UWROAS2SL1  %value Formula%      %value FieldParm%       %value Seq% %value FieldText% %value Typ% %value Len% %value Start% %value Dgt% %value Dec% %value Dec% %value S/D% %value Misc% %value Clr% %value Trn% %value Edit% %value Qual% %value CodeTable%
+%endloop%
+
+** End of report **
