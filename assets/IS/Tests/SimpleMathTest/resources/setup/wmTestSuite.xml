@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="SimpleMathwmTestSuite.xml" name="SimpleMathTestSuite.xml">
+    <webMethodsTestCase name="simplemath_positive1">
+        <service folder="SimpleMath" name="divideInts">
+            <input>
+                <file filename="resources/data/input1.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/data/output1.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="simplemath_exception1">
+        <service folder="SimpleMath" name="divideInts">
+            <input>
+                <file filename="resources/data/input_exception1.xml"/>
+            </input>
+            <expected>
+                <exception/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
