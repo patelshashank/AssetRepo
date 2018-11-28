@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="CustomerTestSuite">
+    <webMethodsTestCase name="testcase1_positive">
+        <service folder="Customer.services" name="processNames">
+            <input>
+                <file filename="resources/data/testcase1_positive_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/data/testcase1_positive_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="testcase2_exception">
+        <service folder="Customer.services" name="processNames">
+            <input>
+                <file filename="resources/data/testcase2_exception_input.xml"/>
+            </input>
+            <expected>
+                <exception/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
